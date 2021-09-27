@@ -1,11 +1,25 @@
 Forked from upstream with the following changes: https://github.com/azz/eslint-plugin-monorepo/compare/master...jdb8:master
 
-* https://github.com/azz/eslint-plugin-monorepo/pull/21
-* https://github.com/azz/eslint-plugin-monorepo/pull/29
+- https://github.com/azz/eslint-plugin-monorepo/pull/21
+- https://github.com/azz/eslint-plugin-monorepo/pull/29
 
 If these changes are merged to `eslint-plugin-monorepo`, this fork can be deleted.
 
-------
+Until then, this fork can be installed via:
+
+```bash
+yarn add -D @jdb8/eslint-plugin-monorepo
+```
+
+or
+
+```bash
+npm install --save-dev @jdb8/eslint-plugin-monorepo
+```
+
+The original README is included below.
+
+---
 
 # `eslint-plugin-monorepo`
 
@@ -17,8 +31,8 @@ If these changes are merged to `eslint-plugin-monorepo`, this fork can be delete
 
 A collection of ESLint rules for enforcing import rules in a monorepo. Supports:
 
-* [Lerna](https://github.com/lerna/lerna)
-* [Yarn workspaces](https://yarnpkg.com/lang/en/docs/workspaces/)
+- [Lerna](https://github.com/lerna/lerna)
+- [Yarn workspaces](https://yarnpkg.com/lang/en/docs/workspaces/)
 
 ## Configuration
 
