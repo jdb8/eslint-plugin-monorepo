@@ -51,9 +51,7 @@ export const create = context => {
 };
 
 const getPackageDir = (filePath, packages) => {
-  const match = packages.find(pkg =>
-    isInside(filePath, pkg.location)
-  );
+  const match = packages.find(pkg => isInside(filePath, pkg.location));
   if (match) {
     return match.location;
   }
