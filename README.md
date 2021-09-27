@@ -17,6 +17,8 @@ or
 npm install --save-dev @jdb8/eslint-plugin-monorepo
 ```
 
+Unfortunately, any references to `monorepo/*` rules (such as in `eslint-ignore` comments) will have to be updated to point to `@jdb8/monorepo/*` temporarily. If anyone knows of a way to avoid this when forking an eslint plugin (via some kind of rule aliasing?) please reach out!
+
 The original README is included below.
 
 ---
