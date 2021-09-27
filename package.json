@@ -45,5 +45,8 @@
     "minimatch": "^3.0.4",
     "parse-package-name": "^0.1.0",
     "path-is-inside": "^1.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
