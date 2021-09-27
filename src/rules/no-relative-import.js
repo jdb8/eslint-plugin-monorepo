@@ -4,7 +4,7 @@ import moduleVisitor, {
 } from 'eslint-module-utils/moduleVisitor';
 import isInside from 'path-is-inside';
 import path from 'path';
-import getPackages from 'get-monorepo-packages';
+import getPackages from '../util/get-packages';
 
 export const meta = {
   schema: [makeOptionsSchema({})],
@@ -51,9 +51,7 @@ export const create = context => {
 };
 
 const getPackageDir = (filePath, packages) => {
-  const match = packages.find(pkg =>
-    isInside(filePath, pkg.location)
-  );
+  const match = packages.find(pkg => isInside(filePath, pkg.location));
   if (match) {
     return match.location;
   }
