@@ -4,11 +4,11 @@ exports[`configs matches snapshot 1`] = `
 Object {
   "recommended": Object {
     "plugins": Array [
-      "monorepo",
+      "@jdb8/eslint-plugin-monorepo",
     ],
     "rules": Object {
-      "monorepo/no-internal-import": "error",
-      "monorepo/no-relative-import": "error",
+      "@jdb8/monorepo/no-internal-import": "error",
+      "@jdb8/monorepo/no-relative-import": "error",
     },
   },
 }

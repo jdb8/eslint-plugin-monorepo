@@ -1,6 +1,6 @@
-export const plugins = ['monorepo'];
+export const plugins = ['@jdb8/eslint-plugin-monorepo'];
 
 export const rules = {
-  'monorepo/no-internal-import': 'error',
-  'monorepo/no-relative-import': 'error',
+  '@jdb8/monorepo/no-internal-import': 'error',
+  '@jdb8/monorepo/no-relative-import': 'error',
 };
