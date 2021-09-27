@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-monorepo",
+  "name": "@jdb8/eslint-plugin-monorepo",
   "version": "0.0.0-development",
   "description": "ESLint plugin for monorepos",
   "keywords": [
@@ -14,7 +14,7 @@
   "files": [
     "lib"
   ],
-  "repository": "https://github.com/azz/eslint-plugin-monorepo",
+  "repository": "https://github.com/jdb8/eslint-plugin-monorepo",
   "author": "Lucas Azzola <@azz>",
   "license": "MIT",
   "scripts": {
