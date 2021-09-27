@@ -1,6 +1,7 @@
 Forked from upstream with the following changes: https://github.com/azz/eslint-plugin-monorepo/compare/master...jdb8:master
 
 * https://github.com/azz/eslint-plugin-monorepo/pull/21
+* https://github.com/azz/eslint-plugin-monorepo/pull/29
 
 If these changes are merged to `eslint-plugin-monorepo`, this fork can be deleted.
 
