@@ -4,7 +4,7 @@ import moduleVisitor, {
 } from 'eslint-module-utils/moduleVisitor';
 import isInside from 'path-is-inside';
 import path from 'path';
-import getPackages from 'get-monorepo-packages';
+import getPackages from '../util/get-packages';
 
 export const meta = {
   schema: [makeOptionsSchema({})],
